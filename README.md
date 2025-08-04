@@ -230,6 +230,19 @@ puppy-thoth-alpha/
 4. ☁️ **Backend Development** - Initialize TypeScript backend services
 5. 🤖 **AI Model Training** - Begin data collection and model training pipeline
 
+
+## 🛠️ Development
+
+```bash
+npm install
+npm test
+npm run build
+```
+
+The HTTP layer is powered by Express with Pino-based structured logging and a
+serial firmware bridge. Tests run via Vitest with V8 coverage and `supertest`
+for endpoint integration.
+
 ---
 
 ## 🤝 Contributing

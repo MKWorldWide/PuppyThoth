@@ -2,12 +2,25 @@
 
 > **"Bond Beyond Words"** - The Future of Human-Canine Communication
 
-[![GitHub stars](https://img.shields.io/github/stars/M-K-World-Wide/PuppyThoth?style=social)](https://github.com/M-K-World-Wide/PuppyThoth/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/M-K-World-Wide/PuppyThoth?style=social)](https://github.com/M-K-World-Wide/PuppyThoth/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/M-K-World-Wide/PuppyThoth)](https://github.com/M-K-World-Wide/PuppyThoth/issues)
-[![GitHub license](https://img.shields.io/github/license/M-K-World-Wide/PuppyThoth)](https://github.com/M-K-World-Wide/PuppyThoth/blob/main/LICENSE)
+[![CI Status](https://github.com/M-K-World-Wide/PuppyThoth/actions/workflows/ci.yml/badge.svg)](https://github.com/M-K-World-Wide/PuppyThoth/actions)
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![Node.js Version](https://img.shields.io/badge/node-%3E%3D20.x-brightgreen.svg)](https://nodejs.org/)
+[![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](https://www.typescriptlang.org/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 
----
+## 📋 Table of Contents
+
+- [Overview](#-what-is-puppythoth-alpha)
+- [Features](#-features)
+- [Getting Started](#-getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Development](#development)
+- [Architecture](#-architecture)
+- [Testing](#-testing)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Acknowledgements](#-acknowledgements)
 
 ## 🌟 What is PuppyThoth Alpha?
 

@@ -1,0 +1,49 @@
+version: 2
+updates:
+  # Enable version updates for npm
+  - package-ecosystem: "npm"
+    # Look for `package.json` and `package-lock.json` in the `root` directory
+    directory: "/"
+    # Check for updates to npm dependencies daily
+    schedule:
+      interval: "daily"
+    # Apply labels to any pull requests raised
+    labels:
+      - "dependencies"
+      - "javascript"
+    # Group updates by dependency name
+    groups:
+      npm-dependencies:
+        patterns:
+          - "*"
+    # Set the versioning strategy for npm
+    versioning-strategy: increase
+
+  # Enable version updates for GitHub Actions
+  - package-ecosystem: "github-actions"
+    # Look for `.github/workflows` containing GitHub Actions
+    directory: "/"
+    # Check for updates to GitHub Actions daily
+    schedule:
+      interval: "daily"
+    # Apply labels to any pull requests raised
+    labels:
+      - "github-actions"
+      - "dependencies"
+
+  # Enable security updates for npm
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    # Only allow updates to the lockfile
+    versioning-strategy: lockfile-only
+    # Only update if there are security vulnerabilities
+    allow:
+      - dependency-type: "all"
+    # Apply security label
+    labels:
+      - "security"
+      - "dependencies"
+    # Create pull requests for security updates immediately
+    open-pull-requests-limit: 10
